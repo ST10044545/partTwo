@@ -93,6 +93,7 @@ namespace partTwo
 
                 string foodGroup = "";
 
+                //if statements
                 if (food == "1")
                 {
                     foodGroup = "Starchy foods";
