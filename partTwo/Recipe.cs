@@ -21,7 +21,7 @@ namespace partTwo
         Ingredient myObje = new Ingredient();
         Step myObject = new Step();
 
-        //generics
+        //All the generics
         public static List<int> ingNum = new List<int>();
 
         public static List<string> ingredientName = new List<string>();
@@ -127,7 +127,7 @@ namespace partTwo
                 calculating<int> values = new calculating<int>(calculateAllCalories);
 
                 values(int.Parse(cal));
-
+                
                 myObje.Name = ingName;
                 myObje.Quantity = ingQuantity;
                 myObje.UnitOfMeasurement = ingUnit;
