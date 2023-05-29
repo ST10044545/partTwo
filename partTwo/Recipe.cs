@@ -166,6 +166,7 @@ namespace partTwo
 
         }
 
+        //A method to calculate the calories
         public int calculateAllCalories(int ingredientCalories)
         {
 
