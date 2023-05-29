@@ -339,6 +339,7 @@ namespace partTwo
                    
                 }
             }
+            //Notification
             Console.WriteLine("Reset quantities done");
         }
         public void clearData()
