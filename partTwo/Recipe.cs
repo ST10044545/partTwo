@@ -124,6 +124,7 @@ namespace partTwo
                 }
                 else
                 {
+                    //Notify user that a food group was not chosen
                     Console.WriteLine("You did not choose any food group");
                 }
 
