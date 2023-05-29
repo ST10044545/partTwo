@@ -313,6 +313,7 @@ namespace partTwo
             }
             else
             {
+                //Notification
                 Console.WriteLine("No scaling");
             }
         }
