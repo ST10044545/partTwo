@@ -362,6 +362,7 @@ namespace partTwo
                 ingredientCalories.Clear();
                 ingredientFoodGroup.Clear();
 
+                //Notification
                 Console.WriteLine("Data was cleared successfully ");
             }
             else if (clearing == "n")
