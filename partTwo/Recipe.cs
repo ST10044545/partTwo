@@ -136,6 +136,7 @@ namespace partTwo
                 myObje.Quantity = ingQuantity;
                 myObje.UnitOfMeasurement = ingUnit;
 
+                //Add method
                 ingredientName.Add(ingName + recipe);
                 ingredientQuantity.Add(ingQuantity + recipe);
                 ingredientUnit.Add(ingUnit + recipe);
