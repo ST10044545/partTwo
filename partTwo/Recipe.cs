@@ -45,7 +45,7 @@ namespace partTwo
         int count = 0;
 
         //Introduce delegate
-        delegate T calculating<T>(T sum);
+        delegate T calculating<T>(T allCalories);
 
         public void enterRecipe()
         {
@@ -329,10 +329,7 @@ namespace partTwo
                 if (ingredientName[j].Contains(namesss))
                 {
                     ingredientQuantity[j] = firstIngredientQuantity[j];
-                    // double mult = double.Parse(ingredientQuantity[g].Replace(namesss, ""));
-
-                    //double sum = mult * 2;
-                    //ingredientQuantity[g] = "" + sum + namess;
+                   
                 }
             }
             Console.WriteLine("Reset quantities done");
