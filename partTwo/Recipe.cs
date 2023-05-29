@@ -124,9 +124,9 @@ namespace partTwo
                     Console.WriteLine("You did not choose any food group");
                 }
 
-                calculating<int> return_all = new calculating<int>(calculateAllCalories);
+                calculating<int> values = new calculating<int>(calculateAllCalories);
 
-                return_all(int.Parse(cal));
+                values(int.Parse(cal));
 
                 myObje.Name = ingName;
                 myObje.Quantity = ingQuantity;
