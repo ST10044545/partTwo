@@ -16,7 +16,7 @@ namespace partTwo
             Recipe myObj = new Recipe();
 
             //Text colour
-            ConsoleColor green = ConsoleColor.Green;
+            ConsoleColor green = ConsoleColor.Green; // Green text colour
             ConsoleColor blue = ConsoleColor.Blue;
             ConsoleColor yellow = ConsoleColor.Yellow;
 
