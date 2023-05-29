@@ -18,7 +18,7 @@ namespace partTwo
             //Text colour
             ConsoleColor green = ConsoleColor.Green; // Green text colour
             ConsoleColor blue = ConsoleColor.Blue; // Blue text colour
-            ConsoleColor yellow = ConsoleColor.Yellow;
+            ConsoleColor yellow = ConsoleColor.Yellow; // Yellow text colour
 
             //loop
             while (menu < 6)
