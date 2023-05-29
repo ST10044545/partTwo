@@ -47,6 +47,8 @@ namespace partTwo
         //Introduce delegate
         delegate T calculating<T>(T allCalories);
 
+
+        //A method to capture 
         public void enterRecipe()
         {
             //Prompt 
