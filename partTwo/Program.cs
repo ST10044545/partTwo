@@ -72,6 +72,8 @@ namespace partTwo
                     Console.WriteLine("APPLICATION EXIT");
                     Console.ReadLine();
                     Console.ResetColor();
+
+                    //End of application
                 }
             }
         }
